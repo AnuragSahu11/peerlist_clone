@@ -1,6 +1,39 @@
+import "./navbar.css";
+import { HiOutlineBell } from "react-icons/hi";
+import { AiOutlineSearch } from "react-icons/ai";
+
 const Navbar = () => {
-  return <>Navbar
-  <path d="M20 0C4.44444 0 0 4.44444 0 20C0 35.5556 4.45555 40 20 40C35.5444 40 40 35.5556 40 20C40 4.44444 35.5444 0 20 0Z" fill="#00AA45"></path></>;
+  return (
+    <nav>
+      <div className="nav_content_wrapper">
+        <div className="nav_logo"></div>
+        <div className="nav_body">
+          <div className="nav_search">
+            <label>
+              <AiOutlineSearch />
+            </label>
+            <input
+              type="text"
+              className="nav_search_input text-sm"
+              placeholder="Search Peerlist..."
+            />
+          </div>
+          <div className="nav_notification">
+            <div className="nav_notification_icon_wrapper">
+              <HiOutlineBell className="nav_notification_icon" />
+            </div>
+          </div>
+          <div className="nav_profile">
+            <img
+              className="nav_profile_img"
+              src="https://joeschmoe.io/api/v1/random"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </nav>
+  );
 };
 
 export { Navbar };

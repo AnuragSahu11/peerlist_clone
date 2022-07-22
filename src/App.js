@@ -1,12 +1,16 @@
 import "./App.css";
+import { Router } from "./router/router";
 import { Navbar } from "./components/navbar/Navbar";
-import { FeedPage } from "./pages/feed-page/FeedPage";
+import { NavigationSidebar } from "./components/navigation-sidebar/NavigationSidebar";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <FeedPage />
+      <div className="app_body">
+        <NavigationSidebar />
+        <Router />
+      </div>
     </div>
   );
 }
