@@ -1,6 +1,9 @@
 .text-sm {
   font-size: 0.875rem;
 }
+.App {
+  letter-spacing: 0.2px;
+}
 .app_body {
   display: flex;
   flex-direction: row;

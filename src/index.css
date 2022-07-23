@@ -14,3 +14,11 @@ html {
 *:after {
   box-sizing: inherit;
 }
+:root {
+  --very-li-grey: #f6f8fa;
+  --dk-grey: rgb(68 77 86, 0.9);
+  --li-grey: #959da5;
+  --md-grey: #79848e;
+
+  --border-grey: rgb(225 228 232);
+}

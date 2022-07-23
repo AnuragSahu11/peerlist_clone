@@ -6,7 +6,9 @@ const Navbar = () => {
   return (
     <nav>
       <div className="nav_content_wrapper">
-        <div className="nav_logo"></div>
+        <div className="nav_logo">
+          <img src="./images/logo.png" alt="" />
+        </div>
         <div className="nav_body">
           <div className="nav_search">
             <label>
@@ -26,7 +28,7 @@ const Navbar = () => {
           <div className="nav_profile">
             <img
               className="nav_profile_img"
-              src="https://joeschmoe.io/api/v1/random"
+              src={`./images/navdp.webp`}
               alt=""
             />
           </div>
