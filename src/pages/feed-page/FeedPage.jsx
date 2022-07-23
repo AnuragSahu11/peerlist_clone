@@ -65,7 +65,22 @@ const postList = [
         "Abogrow is a AI content suggestion tool that helps you write, preview, post and collaboratively manage your content. It also helps you to scale your brand!",
       img: "https://abogrow.com/assets/og/og_facebook.png",
     },
-    likes: 7,
+    likes: 8,
+  },
+  {
+    id: "p5",
+    postBy: "Shubh Jaiswal",
+    postAt: "18 Jul, 2022",
+    postDisc:
+      "This book would not let you take a brake from reading once you start reading it. It has a strong pull to keep you hooked to the topic, the author has given a lot of examples in definition style and common language with examples and to the point",
+    dp: "p5dp.webp",
+    postContent: {
+      type: "image",
+      title: "",
+      content: "",
+      img: "http://books.google.com/books/content?id=REDDEFhSnroC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    },
+    likes: 6,
   },
 ];
 

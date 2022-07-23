@@ -26,6 +26,12 @@ const PostComponent = ({
     case "link":
       showPostContent = <a href={content}>{content}</a>;
       break;
+    case "image":
+      showPostContent = (
+        <div className="post_content_img">
+          <img src={img} alt="" />
+        </div>
+      );
     default:
   }
   return (
