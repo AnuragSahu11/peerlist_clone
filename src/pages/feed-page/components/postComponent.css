@@ -63,6 +63,20 @@
 .post_content_share img {
   height: 100%;
 }
+.post_content a {
+  font-size: 0.85rem;
+  color: rgb(33 150 83);
+}
+.post_content_img {
+  width: 100%;
+  background-color: var(--very-li-grey);
+  display: flex;
+}
+.post_content_img img {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
 
 /* post button */
 
