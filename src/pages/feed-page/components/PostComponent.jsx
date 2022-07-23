@@ -13,7 +13,7 @@ const PostComponent = ({
     likes,
     postDisc,
     dp,
-    postContent: { type, title, content, img } = {},
+    postContent: { type = "", title = "", content = "", img = "" } = {},
   },
 }) => {
   let showPostContent;
@@ -23,8 +23,10 @@ const PostComponent = ({
         <SharePostContent contentData={{ title, content, img }} />
       );
       break;
+    case "link":
+      showPostContent = <a href={content}>{content}</a>;
+      break;
     default:
-      return;
   }
   return (
     <div className="post_wrapper">
