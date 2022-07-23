@@ -1,0 +1,25 @@
+.aside {
+  width: 300px;
+  flex-shrink: 0;
+  background-color: white;
+  padding: 1rem;
+  border-left: solid 1px var(--border-grey);
+  border-right: solid 1px var(--border-grey);
+  margin-right: auto;
+  position: sticky;
+  top: 62.8px;
+  height: 90vh;
+}
+.heading {
+  margin: 0px;
+  font-weight: 500;
+  border-bottom: solid 1px var(--border-grey);
+  padding-bottom: 5px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.users_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

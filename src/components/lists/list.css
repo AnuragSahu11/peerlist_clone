@@ -1,0 +1,39 @@
+.user_list_wrapper {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.1px;
+}
+.user_list_li {
+  display: flex;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.user_list_li:hover {
+  background-color: rgb(246 248 250);
+}
+.user_list_img {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.user_list_img img {
+  width: 100%;
+  height: auto;
+}
+.user_list_name {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin: 0px;
+}
+.user_list_disc {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin-top: 5px;
+  color: var(--dk-grey);
+}
